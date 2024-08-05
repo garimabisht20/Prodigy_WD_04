@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00796b, #004d40);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #a7ffeb;
+    }
+
+    .header-content h1 {
+      font-size: 48px;
+      margin: 10px 0;
+    }
+
+    .header-content p {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .intro {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+
+    .intro img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .intro-text {
+      max-width: 600px;
+    }
+
+    .intro-text h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .intro-text p {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    #about {
+      background-color: #e0f7fa;
+    }
+
+    #about h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    #about p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      text-align: left;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #about ul {
+      list-style-type: none;
+      padding: 0;
+      font-size: 18px;
+      text-align: left;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #about ul li {
+      margin-bottom: 10px;
+    }
+
+    #projects {
+      background-color: #ffffff;
+    }
+
+    #projects h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .project {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      padding: 20px;
+      width: 250px;
+      transition: transform 0.3s;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+    }
+
+    .project h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    #contact {
+      background-color: #e0f7fa;
+    }
+
+    #contact h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    #contact p {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    #contact a {
+      color: #00796b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #00796b;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Web Developer | Programmer | Designer</p>
+    </div>
+  </header>
+  
+  <section id="home">
+    <div class="intro">
+      <img src="C:\Users\dixit\OneDrive\Desktop\html\WhatsApp Image 2024-08-05 at 18.06.14_3ce2cd74.jpg" alt="Profile Picture">
+      <div class="intro-text">
+        <h2>Hi, I'm Garima Bisht</h2>
+        <p>A passionate web developer with skills in front-end and back-end development. I love creating beautiful and functional websites.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>👋 Hi, I'm Garima Bisht, a passionate and dedicated web developer. With a strong foundation in web technologies and a keen eye for design, I am eager to contribute my skills and creativity to innovative projects.</p>
+    <p>From a young age, I have been fascinated by technology and its potential to solve real-world problems. This curiosity led me to pursue a career in web development, where I could combine my technical skills with my love for creating interactive and user-friendly web applications.</p>
+    <ul>
+      <li><strong>Education:</strong> Bachelor of Technology in Computer Science, [Uttarakhand Technical University]</li>
+      <li><strong>Certifications:</strong> Web Development Bootcamp, JavaScript Essentials, Responsive Web Design</li>
+      <li><strong>Professional Experience:</strong>
+        <ul>
+          <li>🔹 Intern, Prodigy InfoTech</li>
+          <li>🔹 Project 1: Developed a responsive and fixed-position navigation menu using HTML, CSS, and JavaScript. Implemented dynamic color and style changes to enhance user interaction and experience.</li>
+          <li>🔹 Project 2: Built a functional stopwatch with start, pause, reset, and lap time features. Utilized HTML, CSS, and JavaScript to create an interactive and user-friendly interface.</li>
+          <li>🔹 Project 3: Created an engaging Tic-Tac-Toe game with player vs. player and player vs. AI modes. Implemented game logic, user interaction handling, and winning condition checks using JavaScript.</li>
+        </ul>
+      </li>
+      <li><strong>Skills:</strong> HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, MySQL, Git, GitHub, VS Code</li>
+      <li><strong>Soft Skills:</strong> Problem-solving, teamwork, communication, adaptability</li>
+      <li><strong>Interests:</strong> Apart from coding, I enjoy staying updated with the latest technology trends, participating in hackathons, and contributing to open-source projects. I also have a keen interest in graphic design and enjoy creating digital art in my free time.</li>
+    </ul>
+  </section>
+  
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project">
+        <h3>Interactive Navigation Menu</h3>
+        <p>Developed a responsive and fixed-position navigation menu using HTML, CSS, and JavaScript. Implemented dynamic color and style changes to enhance user interaction and experience.</p>
+      </div>
+      <div class="project">
+        <h3>Stopwatch Web Application</h3>
+        <p>Built a functional stopwatch with start, pause, reset, and lap time features. Utilized HTML, CSS, and JavaScript to create an interactive and user-friendly interface.</p>
+      </div>
+      <div class="project">
+        <h3>Tic-Tac-Toe Web Application</h3>
+        <p>Created an engaging Tic-Tac-Toe game with player vs. player and player vs. AI modes. Implemented game logic, user interaction handling, and winning condition checks using JavaScript.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Get in touch with me at <a href="mailto:garimab785@gmail.com">garimab785@gmail.com</a></p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 Garima Bisht. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('nav ul li a').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
